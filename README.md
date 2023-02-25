@@ -21,7 +21,7 @@ meet the accuracy threshold. Another plot shows the predicted values for each of
 - MLflow_SconesUnlimted_AG.ipynb: project notebook based on supplied 'starter.ipynb' code 
 that contains the project steps
 - lambda.py: contains code of the three lambda functions
-- step_function.json: contains json code of the implemented step-function
-- step_function_pass.png: a saved image of step functions with a pass result
-- step_function_fail.png: a saved image of step function with last lambda function failing due 
-to prediction not meeting required threshold of 0.93 (ato do: add png-images)
+- stepFunction.json: contains json code of the implemented step-function
+- stepFunction_TestImage_Pass.png: a saved image of step functions with all lamdba functions passing for a prediction that meets 0.93 threshold
+- stepFunction_TestImage_Fail.png: a saved image of step function with last lambda function failing due 
+to prediction not meeting the required threshold of 0.93
